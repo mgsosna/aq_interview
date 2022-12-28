@@ -8,5 +8,5 @@ def mean(nums: List[float]) -> float:
     return sum(nums) / len(nums)
 
 if __name__ == "__main__":
-    nums = [float(x) for x in sys.argv[1:]]  # Convert str args to int
+    nums = [float(x) for x in sys.argv[1:]]  # Convert from str args
     print(mean(nums))
